@@ -12,7 +12,15 @@
     <% @week_days.each do |day| %>
       <div class='item'>
         <div class='date'>
+<<<<<<< Updated upstream
           <%= day[:month] %>/<%= day[:date] %>/<%= day[:wday] %>
+=======
+<<<<<<< HEAD
+          <%= day[:month] %>/<%= day[:date] %>/<%= day[:wday] %>
+=======
+          <% day[:month] %>/<% day[:date] %>
+>>>>>>> parent of a9e17d7... Issue5の修正
+>>>>>>> Stashed changes
         </div>
         <ul class='content'>
         <% if day[:plans].length != 0 %>
